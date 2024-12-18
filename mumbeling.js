@@ -1,4 +1,5 @@
 function accum(s) {
+    s=s.toLowerCase();
 	array=s.split("");
     array3=[];
     l=array.length;
@@ -17,4 +18,4 @@ function accum(s) {
 
 return s
 } 
-console.log(accum("abcdefg"));
+console.log(accum("ZpglnRxqenU"));
