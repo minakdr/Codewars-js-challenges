@@ -1,13 +1,13 @@
 function highAndLow(numbers) {
-    numbers.re
-    let array = numbers.split(" ").map(Number);
-
-    let max = Math.max(array);
-    let min = Math.min(array);
-
+    array = numbers.split(" ");
+    array.forEach(element => {element.Number});
+    console.log(array);
+    min=Math.min(...array)
+    max=Math.max(...array)
     s=(max+' '+min)
-    return (s)}
+    return (s)
     
+    }
 
 
-console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"), "42 -9");
+console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
