@@ -8,6 +8,5 @@ const binaryArrayToNumber = arr => {
       s=s+2}
     if(arr[3]===1){
       s=s+1}
-    // your code
     return s;
   };
