@@ -9,7 +9,7 @@ function getCount(str) {
         case 'i':
         case 'o':
         case 'u':
-          total++; // Increment total directly
+          total++;
       } }
      return total ;
     }
