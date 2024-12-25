@@ -1,0 +1,17 @@
+var SequenceSum = (function() {
+  function SequenceSum() {}
+  SequenceSum.showSequence = function(count) {
+    let s = 0
+    let ss = ''
+    for (let i = 0; i <= count; i++) {
+      s += i
+      ss += i
+      if (i < count) {
+        ss += '+'; 
+      }
+    }
+    ss += ' = '+s;
+    return ss; 
+  };
+  return SequenceSum; 
+})();
